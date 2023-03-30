@@ -11,3 +11,73 @@
 .svg {
     width: 20px;
 }
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    background-color: #f0f9ff;
+}
+
+.sidebar {
+    background-color: #0284c7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.05rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.logo-img {
+    height: 35px;
+}
+
+.logo-name {
+    padding-left: 0.5rem;
+}
+
+.sidebar-main-links {
+    padding: 3rem 1.5rem;  
+}
+
+
+.sidebar-main-links ul li p, .sidebar-second-links ul li p {
+    padding-left: 1rem;
+}
+
+.sidebar-second-links {
+    padding: 0rem 1.5rem;
+}
+
+.sidebar-main-links ul li, .sidebar-second-links ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0.4rem 0;
+}
+
+/* .sidebar-second-links ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0.4rem 0;
+} */
+
+.content {
+    background-color: #e0f2fe;
+}
