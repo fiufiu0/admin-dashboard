@@ -12,7 +12,6 @@
     width: 20px;
 }
 
-
 .main {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -31,6 +30,7 @@
 .header-top {
     display: grid;
     grid-template-columns: 1fr max-content;
+    padding-bottom: 1rem;
 }
 
 .header-search {
@@ -58,7 +58,7 @@
 
 .name {
     font-weight: 700;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
 }
 
 .main-avatar {
@@ -68,6 +68,20 @@
 }
 
 
+.header-bottom {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    color: #fff;
+    background-color: #0284c7;
+    text-decoration: none;
+    padding: 0.6rem 1.3rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
 
 /* SIDEBAR  */
 
