@@ -24,13 +24,13 @@
     background-color: #f0f9ff;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
 }
 
 .header-top {
     display: grid;
     grid-template-columns: 1fr max-content;
-    padding-bottom: 1rem;
+    padding-bottom: 0.3rem;
 }
 
 .header-search {
@@ -71,15 +71,40 @@
 .header-bottom {
     display: flex;
     align-items: center;
+}
 
+.avatar-header {
+    width: 60px;
+    height: 60px;
+}
+
+.header-bottom-welcome {
+    padding-left: 1rem;
+}
+
+.hello-main {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+
+.name-main {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.header-bottom-btn {
+    margin-left: auto;
+    display: flex;
+    gap: 1.6rem;
 }
 
 .btn {
     color: #fff;
     background-color: #0284c7;
     text-decoration: none;
-    padding: 0.6rem 1.3rem;
-    border-radius: 1rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 3rem;
     font-weight: 500;
 }
 
